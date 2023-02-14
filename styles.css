@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(10, 0, 0, 1);
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 0.4rem;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem 1rem 1rem;
+}
+a:hover {
+    color:rgb(214, 71, 0)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+
+#banner {
+    display: flex;
+    justify-content: start;
+    min-height: 500px;
+    max-height: 1200px;
+    background-image: url(./resources/sunset-1421010_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;
+}
